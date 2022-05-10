@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@500&family=Squada+One&display=swap');
+
+@layer base {
+    body {
+        @apply font-[Changa];
+        @apply bg-slate-900;
+    }
+    li{
+        @apply px-4;
+        @apply text-slate-400;
+        @apply cursor-pointer
+    }
+    li:hover{
+        @apply text-white
+       
+    }
+   
+
+}
+
+.content-div{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+.work-title:hover{
+ opacity: 1;
+}
+.content-div:hover {
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    opacity: .3 ;
+}
+
+.navBar{
+    border-bottom: solid .2rem;
+    border-image: linear-gradient(to left, #743ad5, #d53a9d) 1;
+}
+
+.home-bg{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
